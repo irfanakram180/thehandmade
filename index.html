@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Hand Made Wear - Comfortable and stylish handmade clothing crafted to perfection. Our website is currently under maintenance and will be live soon.">
+    <meta name="keywords" content="Handmade clothing, Comfortable wear, Organic fabrics, Custom-made shirts, High-quality clothing">
+    <meta name="author" content="The Hand Made Wear">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon-32x32.png" type="image/x-icon">
+
+    <title>The Hand Made Wear | Comfortable Clothing</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            background-color: #f9f9f9;
+        }
+        .maintenance-box {
+            position: relative; /* Make sure blinking light is inside */
+            padding: 20px;
+            
+            color: #333;
+            width: 250px;
+            text-align: left;
+            font-size: 1rem;
+            border-radius: 5px;
+           
+            width: 100%;
+            margin-top: 50px;
+        }
+        .maintenance-box h2 {
+            font-size: 1.5rem;
+            color: #5a5a5a;
+        }
+        .maintenance-box p {
+            margin: 10px 0;
+        }
+
+        /* Blinking light animation inside the maintenance box */
+        .blinking-light {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 40px;
+            background-color: red;
+            border-radius: 50%;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+                background-color: red;
+            }
+            70% {
+                opacity: 0.2;
+                background-color: green;
+            }
+            100% {
+                opacity: 1;
+                background-color: red;
+            }
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 0.9rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="maintenance-box">
+        <!-- Blinking light (ambulance-style) inside the box -->
+        <div class="blinking-light"></div>
+        <h2>Website Under Maintenance</h2>
+        <p><strong>Apologies for the inconvenience!</strong></p>
+        <p>Our website is currently undergoing maintenance. We are working hard to improve your experience and will be back online soon.</p>
+        <p><strong>Check back in a few days for an active website!</strong></p>
+    </div>
+
+    <div class="footer">&copy; 2025 The Hand Made. All rights reserved.</div>
+</body>
+</html>
